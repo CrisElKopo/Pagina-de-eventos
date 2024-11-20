@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background: var(--background-color1);
+  width: 100vw;
+  min-height: 100vh;
+  min-height: 100dvh;
+  overflow-x: hidden;
+}
+
+.inscriptionContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  min-height: 100dvh;
+  overflow-x: hidden;
+}/*# sourceMappingURL=index.css.map */

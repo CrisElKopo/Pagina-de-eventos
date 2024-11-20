@@ -1,0 +1,26 @@
+nav {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 218px;
+  z-index: 50;
+}
+nav div {
+  display: flex;
+  gap: 48px;
+}
+nav div a {
+  color: var(--text-color);
+  font-size: 1rem;
+}
+
+@media (max-width: 900px) {
+  nav {
+    padding: 0;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=nav.css.map */

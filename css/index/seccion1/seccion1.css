@@ -1,0 +1,19 @@
+.seccion1 {
+  max-height: 400px;
+  width: 100%;
+  max-width: 100vw;
+  position: relative;
+}
+.seccion1 img {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (max-width: 900px) {
+  .seccion1 {
+    margin-top: 100px;
+  }
+}/*# sourceMappingURL=seccion1.css.map */

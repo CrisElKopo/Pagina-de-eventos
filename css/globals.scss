@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap');
+
+:root{
+    --background-color1: #1C1C1C;
+    --background-color2: transparent;
+    --background-color3: rgba(255, 255, 255, 0.06);
+    --background-footer: #737373;
+    --background-subfooter: #4c4c4c;
+    --primary: #996134;
+    --border1: 1px solid white;
+    --input-color: rgba(255, 255, 255, 0.17);
+    --secondary: transparent;
+    --dropshadow-color: #ffffff24;
+    --text-color: white;
+    --text-color-secondary: #B5B5B5;
+    --text-color-dark: black;
+    --text-font: 'Inria Serif', serif;
+    --text-weight: 400;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--text-font);
+    color: var(--text-color);
+    font-weight: var(--text-weight);
+}
+
+a{
+    text-decoration: none;
+}
+
+.primarybutton{
+    background: var(--primary);
+}
+
+.secondarybutton{
+    background: var(--secondary);
+    border: var(--border1);
+}
+
+.button{
+    width: 160px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
