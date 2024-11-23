@@ -49,4 +49,9 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+
+    &:hover{
+        filter: brightness(0.8);
+    }
 }

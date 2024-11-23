@@ -83,4 +83,8 @@
   border: transparent;
   height: 50px;
   border-radius: 10px;
+}
+.formContainer form .botones {
+  display: flex;
+  gap: 1rem;
 }/*# sourceMappingURL=formulario.css.map */
