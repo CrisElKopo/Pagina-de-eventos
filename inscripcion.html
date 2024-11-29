@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/footer/footer.css">
     <link rel="stylesheet" href="css/inscripcion/index.css">
     <link rel="stylesheet" href="css/inscripcion/formulario/formulario.css">
+    <script src="js/dynamicInput.js"></script>
+    <script src="js/PQuantityFunc.js"></script>
 </head>
 <body>
     <nav>
@@ -53,6 +55,28 @@
                   <div class="input fullwidth">
                     <label for="Correo">Correo</label>
                     <input required placeholder="correo@gmail.com" type="email" name="Correo" id="">
+                  </div>
+                  
+                  <div class="cantidadPersonas fullwidth">
+                    <label>
+                      ¿Va más de una persona?
+                    </label>
+                    <div class="cantidadPersonasInputs">
+                     <div class="pInput">
+                      <label for="si">Si</label>
+                      <input name="PQuantityRadio" type="radio" id="seleccion" onclick="toggleInput(true)">
+                     </div>
+                    
+                     <div class="pInput">
+                      <label for="no">No</label>
+                    <input name="PQuantityRadio" type="radio" id="seleccion" onclick="toggleInput(false)">
+                     </div>
+                    </div>
+                  </div>
+
+                  <div class="input fullwidth PQuantity hidden">
+                    <label for="PQuantity">Cantidad de personas</label>
+                    <input oninput="dynamicInputs(this.value)" required placeholder="1" type="number" name="PQuantity" id="">
                   </div>
                 </div>
                   

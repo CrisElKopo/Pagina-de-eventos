@@ -51,4 +51,8 @@ a {
 }
 .button:hover {
   filter: brightness(0.8);
+}
+
+input[type=radio] {
+  accent-color: var(--primary); /* Color de acento */
 }/*# sourceMappingURL=globals.css.map */
